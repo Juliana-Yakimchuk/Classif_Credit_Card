@@ -1,7 +1,7 @@
 # Credit Card Default Classification
 This project analyzes and predicts whether a credit card client is likely to default on their payment next month based on various demographic and financial attributes.
 
-📊 Dataset
+📊 ## Dataset
 Source: UCI Machine Learning Repository
 
 Attributes: Demographic data (e.g., age, education, marriage), payment history, bill statement, and default status.
