@@ -10,13 +10,12 @@ Attributes: Demographic data (e.g., age, education, marriage), payment history, 
 To build and evaluate a machine learning model that classifies clients into defaulters and non-defaulters.
 
 ## Project Structure
-bash
-Copy
-Edit
-.
-├── CC_Classification.ipynb              # Jupyter notebook with full analysis
-├── requirements.txt                     # Python dependencies
-└── README.md                            # Project documentation
+
+CC_Classification.ipynb              - Jupyter notebook with full analysis
+
+requirements.txt                     - Python dependencies
+
+README.md                            - Project documentation
 
 ## Methods
 Logistic Regression for baseline modeling
@@ -33,20 +32,16 @@ Clone the repository or download the files.
 
 Install dependencies:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Run the notebook:
 
-bash
-Copy
-Edit
-jupyter notebook Refactored_CC_Classification.ipynb
-📈 Results
+jupyter notebook CC_Classification.ipynb
+
+## Results
 Baseline model: Logistic Regression
 
 Evaluation includes confusion matrix, ROC curve, and classification report
+
 ## Future Work
 Address class imbalance with resampling
 
